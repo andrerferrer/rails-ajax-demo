@@ -8,7 +8,7 @@ This is a demo to show-case how to implement `Rails.ajax`.
 
 ### 1. Create a link with an ID
 
-In the [view]().
+In the [view](https://github.com/andrerferrer/rails-ajax-demo/blob/master/app/views/restaurants/index.html.erb).
 
 eg.:
 ```erb
@@ -19,7 +19,7 @@ eg.:
 
 We need to import `Rails` from `rails-ujs` and then call it to the right path and verb.
 
-Check it [here]()
+Check it [here](https://github.com/andrerferrer/rails-ajax-demo/blob/master/app/javascript/components/delete_restaurant.js)
 
 And we're good to go 🤓
 Good Luck and Have Fun
