@@ -6,7 +6,7 @@
   <% @restaurants.each do |restaurant| %>
     <li>
       <%= link_to restaurant.name, restaurant_path(restaurant) %>
-      <%= link_to '❌', restaurant, method: :delete, data: { confirm: "Are you sure?" } %>
+      <%= link_to '❌', 'javascript:;', id: "restaurant-#{restaurant.id}" %>
     </li>
   <% end %>
 </ul>
