@@ -17,9 +17,7 @@ eg.:
 
 ### 2. Implement the JS
 
-We need to import `Rails` from `rails-ujs` and then call it to the right path and verb.
-
-Check it [here](https://github.com/andrerferrer/rails-ajax-demo/blob/master/app/javascript/components/delete_restaurant.js)
+We need to import `Rails` from `rails-ujs` and then call it to the right path and verb. Check it [here](https://github.com/andrerferrer/rails-ajax-demo/blob/master/app/javascript/components/delete_restaurant.js)
 
 And we're good to go 🤓
 Good Luck and Have Fun
