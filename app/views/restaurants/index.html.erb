@@ -6,6 +6,7 @@
   <% @restaurants.each do |restaurant| %>
     <li>
       <%= link_to restaurant.name, restaurant_path(restaurant) %>
+      <%# This is a link to nowhere, the `javascript:;` means the JS no-operator %>
       <%= link_to '❌', 'javascript:;', id: "restaurant-#{restaurant.id}" %>
     </li>
   <% end %>
